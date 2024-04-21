@@ -1,0 +1,38 @@
+.header-cta{
+    background: #0f0f0f;
+    align-items: center;
+    border-radius: none;
+    box-shadow: none;
+    
+  }
+  
+  .header-cta:hover{
+    background: #0f0f0f;
+  
+  }
+  
+  .header-cta span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  
+  .header-cta span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .header-cta:hover span {
+    padding-right: 25px;
+  }
+  
+  .header-cta:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
