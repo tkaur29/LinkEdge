@@ -1,6 +1,6 @@
 **LinkEDGE**
 
-SkillsPrint by StatusBrew
+SkillSprints by StatusBrew
 
 **April 21, 2024**
 
